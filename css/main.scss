@@ -245,7 +245,13 @@ header{
         display: none !important;
     }
 }
+@media(max-width:1399.98px){
+    .airplane_review_item_bg{
+        display: none;
+    }
+}
 @media(max-width:1199.98px){
+    
     .login_wrapper,.nav_links_wrapper{
         display: none ;
     }
@@ -266,11 +272,6 @@ header{
     }
 
 }
-
-
-
-
-
 .hidden{
     display: none !important;
 }
@@ -291,7 +292,6 @@ header{
 
     }
 }
-
 .burger{
     z-index: 999 !important;
     display: flex;
@@ -376,4 +376,97 @@ flex-direction:column;
     }
 
 
+}
+
+.h2_with_circle_bacrkgound{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    background-image: url(../img/h2_background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.airplane_review_wrapper{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    .airplane_review_container{
+        h2{
+            margin-bottom: 65px;
+        }
+
+
+
+    }
+    
+}
+
+.airplane_review_block2{
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 83px;
+    justify-content: end;
+    flex-direction: row-reverse;
+    .airplane_review_info{
+        margin-right: 38px;
+    }
+
+}
+
+.airplane_review_block2{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    .airplane{
+        margin-right: -200px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.airplane_review_block{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 100%;
+    .airplane{
+        margin-left: -200px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.airplane_review_item_bg{
+    z-index: -5;
+}
+
+.airplane_review_info{
+    max-width:463px;
+    margin-left: 38px;
+}
+.airplane_review_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    
+}
+
+.airplane_review_subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: rgba(21, 21, 21, 0.6);
 }

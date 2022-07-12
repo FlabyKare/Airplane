@@ -32,7 +32,6 @@
         max-width: 1165px ;
         margin: auto;
     }
-    
     .nav_links_wrapper,.login_wrapper{
         align-items: center;
         display: flex;
@@ -49,6 +48,27 @@
     .menu_mobile{
         display: none;
     }
+.airplane_review_wrapper{
+    margin-top: 25% !important;
+}
+.airplane_review_block{
+        .airplane{
+            margin-left: 5% !important;
+        }
+    .airplane_review_info{
+        padding-right: 38px;
+    }
+}
+.airplane_review_block2{
+    margin-top: 10% !important;
+    .airplane{
+        margin-right: 5% !important;
+    }
+    .airplane_review_info{
+        padding-left: 38px;
+    }
+}
+
 
 }
 
@@ -67,6 +87,29 @@
     .menu_wrapper{
         padding-top: 10%;
     }
+
+    .airplane_review_wrapper{
+        margin-top: 40% !important;
+    }
+    .airplane_review_block{
+            .airplane{
+                margin-left: 5% !important;
+                width: 500px;
+            }
+        .airplane_review_info{
+            padding-right: 38px;
+        }
+    }
+    .airplane_review_block2{
+        margin-top: 10% !important;
+        .airplane{
+            margin-right: 5% !important;
+            width: 500px;
+        }
+        .airplane_review_info{
+            padding-left: 38px;
+        }
+    }
 }
 
 @media(min-width:768px) and (max-width:991.98px){
@@ -81,6 +124,32 @@
 
     .menu_wrapper{
         padding-top: 15%;
+    }
+.h2_with_circle_bacrkgound{
+    font-size: 30px !important;
+}
+    .airplane_review_wrapper{
+        margin-top: 45% !important;
+    }
+    .airplane_review_block{
+            .airplane{
+                margin-left: 5% !important;
+                width: 295px;
+            }
+        .airplane_review_info{
+            padding-right: 38px;
+        }
+    }
+    .airplane_review_block2{
+        margin-top: 10% !important;
+        .airplane{
+            margin-right: 5% !important;
+            width: 295px;
+
+        }
+        .airplane_review_info{
+            padding-left: 0 !important;
+        }
     }
 }
 
@@ -110,6 +179,37 @@
     .book_flights{
         margin: -20px auto !important;
     }
+
+    .h2_with_circle_bacrkgound{
+        font-size: 22px !important;
+    }
+        .airplane_review_wrapper{
+            margin-top: 38rem !important;
+        }
+        .airplane_review_block{
+            flex-wrap: wrap;
+                .airplane{
+    margin: 0 auto 10% !important;
+                    width: 85%;
+                }
+            .airplane_review_info{
+                max-width: 100%;
+                padding-right: 38px;
+            }
+        }
+        .airplane_review_block2{
+            flex-wrap: wrap;
+            margin-top: 10% !important;
+            .airplane{
+    margin: 0 auto 10% !important;
+                width: 85%;
+    
+            }
+            .airplane_review_info{
+                max-width: 100%;
+                padding-left: 0 !important;
+            }
+        }
 }
 
 @media(min-width:320px) and (max-width:575.98px){
@@ -165,8 +265,54 @@
             font-size: 40px !important;
     line-height: 56px !important;
         }
+
+        .h2_with_circle_bacrkgound{
+            font-size: 22px !important;
+            background: none !important;
+            line-height: 30px !important;
+        }
+            .airplane_review_wrapper{
+                margin-top: 38rem !important;
+            }
+            .airplane_review_block{
+                flex-wrap: wrap;
+                    .airplane{
+        margin: 0 auto 10% !important;
+                        width: 85%;
+                    }
+                .airplane_review_info{
+                    max-width: 100%;
+                    padding-right: 38px;
+                }
+            }
+            .airplane_review_title{
+                margin-bottom: 3% !important;
+                font-size: 23px !important  ;
+            }
+            .airplane_review_block2{
+                flex-wrap: wrap;
+                margin-top: 20% !important;
+                .airplane{
+        margin: 0 auto 10% !important;
+                    width: 85%;
+        
+                }
+                .airplane_review_info{
+                    max-width: 100%;
+                    padding-left: 0 !important;
+                }
+            }
     }
 
 
+@media(max-width:524.98px){
+    .airplane_review_wrapper{
+        margin-top:48rem !important;
+        .h2_with_circle_bacrkgound{
+            font-size: 22px !important;
+            padding: 0 20px;
 
+        }
+    }
+}
 //============================================
