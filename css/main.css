@@ -408,6 +408,10 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   color: #FFFFFF;
 }
 
+.overflow_hidden {
+  overflow: hidden;
+}
+
 .hover_pointer * {
   cursor: pointer;
 }

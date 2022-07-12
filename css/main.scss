@@ -227,7 +227,9 @@ header{
         }
     }
 }
-
+.overflow_hidden{
+    overflow: hidden;
+}
 .hover_pointer{
     *{
         cursor: pointer;
