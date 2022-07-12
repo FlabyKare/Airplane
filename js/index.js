@@ -11,21 +11,23 @@ burg.click(function(){
     })
 
 
+let 
+from_punkt1 = document.querySelector('.from_punkt1'),
+from_punkt2 = document.querySelector('.from_punkt2'),
+from_punkt3 = document.querySelector('.from_punkt3'),
+from_punkt4 = document.querySelector('.from_punkt4'),
+btn = document.querySelector('.change_icon')
 
-const change_icon = $('.change_icon');
+btn.addEventListener('click',function () {
+let text1 = from_punkt1.textContent;
+let text2 = from_punkt2.textContent; 
+let text3 = from_punkt3.textContent; 
+let text4 = from_punkt4.textContent; 
+from_punkt1.textContent = text2
+from_punkt2.textContent = text1
 
-let from_punkt1 = $('.from_punkt1');
-let from_punkt1_text = from_punkt1.textContent;
-
-let from_punkt2 = $('.from_punkt2');
-
-let from_punkt2_text = from_punkt2.textContent;
-
-
-change_icon.click(function(){
-
-    from_punkt1.innerText = from_punkt2_text
-    console.log(from_punkt1_text)
+from_punkt3.textContent = text4
+from_punkt4.textContent = text3
 })
 
 });

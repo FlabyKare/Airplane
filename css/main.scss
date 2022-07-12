@@ -228,7 +228,12 @@ header{
     }
 }
 
+.hover_pointer{
+    *{
+        cursor: pointer;
+    }
 
+}
 
 @media(min-width:1200px){
     .burger{
