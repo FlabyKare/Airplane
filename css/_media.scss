@@ -21,6 +21,7 @@
     .race_info_container{
         width: 100%;
         margin: auto;
+
     }
     .menu_mobile{
         display: none;
@@ -44,12 +45,16 @@
     .race_info_container{
         width: 100%;
         margin: auto;
+        .dropdown_punkts{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
     .menu_mobile{
         display: none;
     }
 .airplane_review_wrapper{
-    margin-top: 25% !important;
+    margin-top: 10% !important;
 }
 .airplane_review_block{
         .airplane{
@@ -89,7 +94,7 @@
     }
 
     .airplane_review_wrapper{
-        margin-top: 40% !important;
+        margin-top: 10% !important;
     }
     .airplane_review_block{
             .airplane{
@@ -110,6 +115,27 @@
             padding-left: 38px;
         }
     }
+
+    .benefits_wrapper{
+        padding: 0 2%;
+        .benefits_container{
+            flex-wrap: wrap;
+        }
+        .plane_img{
+            margin: auto;
+        }
+        .benefits_blok_wrapper1{
+            width: 70%;
+            margin: auto;
+        }
+    }
+    .airplane_models_container{
+        padding: 0 5%;
+        flex-wrap: wrap;
+        .airplane_models_item4{
+            margin-top: 0;
+        }
+    }
 }
 
 @media(min-width:768px) and (max-width:991.98px){
@@ -128,9 +154,9 @@
 .h2_with_circle_bacrkgound{
     font-size: 30px !important;
 }
-    .airplane_review_wrapper{
-        margin-top: 45% !important;
-    }
+.airplane_review_wrapper{
+    margin-top: 15% !important;
+}
     .airplane_review_block{
             .airplane{
                 margin-left: 5% !important;
@@ -149,6 +175,27 @@
         }
         .airplane_review_info{
             padding-left: 0 !important;
+        }
+    }
+    .benefits_wrapper{
+        padding: 0 2%;
+        .benefits_container{
+            flex-wrap: wrap;
+        }
+        .plane_img{
+            margin: auto;
+        }
+        .benefits_blok_wrapper1{
+            width: 70%;
+            margin: auto;
+        }
+    }
+    .airplane_models_container{
+        padding: 0px 10%;
+        flex-wrap: wrap;
+        
+        .airplane_models_item4,.airplane_models_item3{
+            margin-top: 0;
         }
     }
 }
@@ -183,9 +230,9 @@
     .h2_with_circle_bacrkgound{
         font-size: 22px !important;
     }
-        .airplane_review_wrapper{
-            margin-top: 38rem !important;
-        }
+    .airplane_review_wrapper{
+        margin-top: 20% !important;
+    }
         .airplane_review_block{
             flex-wrap: wrap;
                 .airplane{
@@ -210,6 +257,30 @@
                 padding-left: 0 !important;
             }
         }
+        .benefits_wrapper{
+            padding: 0 2%;
+            .benefits_container{
+                flex-wrap: wrap;
+            }
+            .plane_img{
+                margin: auto;
+            }
+            .benefits_blok_wrapper1{
+                width: 70%;
+                margin: auto;
+            }
+        }
+
+        .airplane_models_container{
+            padding: 0px 20%;
+            flex-wrap: wrap;
+            .airplane_models_item{
+                margin-bottom: 30px;
+            }
+            .airplane_models_item4,.airplane_models_item3,.airplane_models_item2,.airplane_models_item1{
+                margin-top: 0;
+            }
+        }
 }
 
 @media(min-width:320px) and (max-width:575.98px){
@@ -221,12 +292,9 @@
         max-width: 90%;
         margin: auto;
     }
-
     .menu_wrapper{
         padding-top: 20%;
     }
-
-
         .d-flex .login_wrapper {
             overflow: hidden;
             margin-top: 20%;
@@ -236,36 +304,28 @@
                 margin: 0 auto 5% !important;
             }
         }
-
-
         .from_and_to{
             flex-direction: column;
         width: 100%;
         }
-    
         .from_to_width{
             width: 100% !important;
         }
-    
         .book_flights{
             margin: 20px auto !important;
         }
-
         .date{
             //flex-direction: column !important;
             width: 100%;
             flex-wrap: wrap;
         }
-
         .dropdown_list{
             flex-wrap: wrap;
         }
-
         .reserved_title{
             font-size: 40px !important;
     line-height: 56px !important;
         }
-
         .h2_with_circle_bacrkgound{
             font-size: 22px !important;
             background: none !important;
@@ -302,12 +362,41 @@
                     padding-left: 0 !important;
                 }
             }
+            .airplane_review_wrapper{
+                margin-top: 20% !important;
+            }
+            .benefits_wrapper{
+                .h2_with_circle_bacrkgound{
+                    padding: 0 20px;
+                }
+                padding: 0 2%;
+                .benefits_container{
+                    flex-wrap: wrap;
+                }
+                .plane_img{
+                    margin: auto;
+                }
+                .benefits_blok_wrapper1{
+                    width: 95%;
+                    margin: auto;
+                }
+            }
+            .airplane_models_container{
+                padding: 0px 20%;
+                flex-wrap: wrap;
+                .airplane_models_item{
+                    margin-bottom: 30px;
+                }
+                .airplane_models_item4,.airplane_models_item3,.airplane_models_item2,.airplane_models_item1{
+                    margin-top: 0;
+                }
+            }
     }
 
 
-@media(max-width:524.98px){
+@media(max-width:389px) and (max-width:524.98px){
     .airplane_review_wrapper{
-        margin-top:48rem !important;
+
         .h2_with_circle_bacrkgound{
             font-size: 22px !important;
             padding: 0 20px;
@@ -315,4 +404,36 @@
         }
     }
 }
+
+@media(max-width:388.98px){
+    .airplane_review_wrapper{
+
+        .h2_with_circle_bacrkgound{
+            font-size: 22px !important;
+            padding: 0 20px;
+
+        }
+    }
+}
+/*
+@media(min-width:768px){
+    .race_info_container2{
+        display: none !important;
+    }
+
+}
+
+@media(max-width:767.98px){
+    .race_info_container{
+        display: none !important;
+    }
+    header{
+        height: 71vh !important;
+    }
+    .race_info_container2{
+        display: block !important;
+        z-index: 999999 !important;
+    }
+}
+*/
 //============================================

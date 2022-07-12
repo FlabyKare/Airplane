@@ -29,6 +29,16 @@ from_punkt2.textContent = text1
 
 from_punkt3.textContent = text4
 from_punkt4.textContent = text3
+
+
 })
+
+
+
+
+
+
+
+
 
 });

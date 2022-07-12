@@ -44,11 +44,18 @@
     width: 100%;
     margin: auto;
   }
+  .race_info_container .dropdown_punkts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .menu_mobile {
     display: none;
   }
   .airplane_review_wrapper {
-    margin-top: 25% !important;
+    margin-top: 10% !important;
   }
   .airplane_review_block .airplane {
     margin-left: 5% !important;
@@ -82,7 +89,7 @@
     padding-top: 10%;
   }
   .airplane_review_wrapper {
-    margin-top: 40% !important;
+    margin-top: 10% !important;
   }
   .airplane_review_block .airplane {
     margin-left: 5% !important;
@@ -100,6 +107,28 @@
   }
   .airplane_review_block2 .airplane_review_info {
     padding-left: 38px;
+  }
+  .benefits_wrapper {
+    padding: 0 2%;
+  }
+  .benefits_wrapper .benefits_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .benefits_wrapper .plane_img {
+    margin: auto;
+  }
+  .benefits_wrapper .benefits_blok_wrapper1 {
+    width: 70%;
+    margin: auto;
+  }
+  .airplane_models_container {
+    padding: 0 5%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .airplane_models_container .airplane_models_item4 {
+    margin-top: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -121,7 +150,7 @@
     font-size: 30px !important;
   }
   .airplane_review_wrapper {
-    margin-top: 45% !important;
+    margin-top: 15% !important;
   }
   .airplane_review_block .airplane {
     margin-left: 5% !important;
@@ -139,6 +168,28 @@
   }
   .airplane_review_block2 .airplane_review_info {
     padding-left: 0 !important;
+  }
+  .benefits_wrapper {
+    padding: 0 2%;
+  }
+  .benefits_wrapper .benefits_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .benefits_wrapper .plane_img {
+    margin: auto;
+  }
+  .benefits_wrapper .benefits_blok_wrapper1 {
+    width: 70%;
+    margin: auto;
+  }
+  .airplane_models_container {
+    padding: 0px 10%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .airplane_models_container .airplane_models_item4, .airplane_models_container .airplane_models_item3 {
+    margin-top: 0;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -173,7 +224,7 @@
     font-size: 22px !important;
   }
   .airplane_review_wrapper {
-    margin-top: 38rem !important;
+    margin-top: 20% !important;
   }
   .airplane_review_block {
     -ms-flex-wrap: wrap;
@@ -199,6 +250,31 @@
   .airplane_review_block2 .airplane_review_info {
     max-width: 100%;
     padding-left: 0 !important;
+  }
+  .benefits_wrapper {
+    padding: 0 2%;
+  }
+  .benefits_wrapper .benefits_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .benefits_wrapper .plane_img {
+    margin: auto;
+  }
+  .benefits_wrapper .benefits_blok_wrapper1 {
+    width: 70%;
+    margin: auto;
+  }
+  .airplane_models_container {
+    padding: 0px 20%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .airplane_models_container .airplane_models_item {
+    margin-bottom: 30px;
+  }
+  .airplane_models_container .airplane_models_item4, .airplane_models_container .airplane_models_item3, .airplane_models_container .airplane_models_item2, .airplane_models_container .airplane_models_item1 {
+    margin-top: 0;
   }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -291,16 +367,71 @@
     max-width: 100%;
     padding-left: 0 !important;
   }
-}
-@media (max-width: 524.98px) {
   .airplane_review_wrapper {
-    margin-top: 48rem !important;
+    margin-top: 20% !important;
   }
+  .benefits_wrapper {
+    padding: 0 2%;
+  }
+  .benefits_wrapper .h2_with_circle_bacrkgound {
+    padding: 0 20px;
+  }
+  .benefits_wrapper .benefits_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .benefits_wrapper .plane_img {
+    margin: auto;
+  }
+  .benefits_wrapper .benefits_blok_wrapper1 {
+    width: 95%;
+    margin: auto;
+  }
+  .airplane_models_container {
+    padding: 0px 20%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .airplane_models_container .airplane_models_item {
+    margin-bottom: 30px;
+  }
+  .airplane_models_container .airplane_models_item4, .airplane_models_container .airplane_models_item3, .airplane_models_container .airplane_models_item2, .airplane_models_container .airplane_models_item1 {
+    margin-top: 0;
+  }
+}
+@media (max-width: 389px) and (max-width: 524.98px) {
   .airplane_review_wrapper .h2_with_circle_bacrkgound {
     font-size: 22px !important;
     padding: 0 20px;
   }
 }
+@media (max-width: 388.98px) {
+  .airplane_review_wrapper .h2_with_circle_bacrkgound {
+    font-size: 22px !important;
+    padding: 0 20px;
+  }
+}
+/*
+@media(min-width:768px){
+    .race_info_container2{
+        display: none !important;
+    }
+
+}
+
+@media(max-width:767.98px){
+    .race_info_container{
+        display: none !important;
+    }
+    header{
+        height: 71vh !important;
+    }
+    .race_info_container2{
+        display: block !important;
+        z-index: 999999 !important;
+    }
+}
+*/
 body {
   position: relative;
 }
@@ -312,6 +443,7 @@ header {
   position: relative;
   height: 95vh;
   padding-top: 2.5%;
+  z-index: -1212;
 }
 header .header_conatiner {
   position: relative;
@@ -356,7 +488,7 @@ header .header_conatiner .sign_in:hover {
 header .header_conatiner .reserved_wrapper {
   max-width: 587px;
   margin-top: 185px;
-  margin-bottom: 153px;
+  margin-bottom: 230px;
   text-align: left;
 }
 header .header_conatiner .reserved_wrapper .reserved_title {
@@ -394,6 +526,26 @@ header .header_conatiner .reserved_wrapper .reserved_link a {
 }
 header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   color: #151515;
+}
+
+.race_info_container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin: 10% auto 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.race_info_container {
+  width: 90%;
+  margin: -150px auto 0;
 }
 
 .race_info_wrapper {
@@ -590,6 +742,9 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
     width: 35px;
     height: 5px;
   }
+  .reserved_wrapper {
+    margin-bottom: 70px !important;
+  }
 }
 .hidden {
   display: none !important;
@@ -645,6 +800,7 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 95vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -727,7 +883,7 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
 }
 
 .airplane_review_wrapper {
-  margin-top: 15%;
+  margin-top: 7%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -817,4 +973,129 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   text-align: justify;
   letter-spacing: 0.02em;
   color: rgba(21, 21, 21, 0.6);
+}
+
+.benefits_wrapper {
+  max-width: 1110px;
+  margin: auto;
+  margin-bottom: 66px;
+}
+
+.benefits_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  gap: 36px;
+  margin-top: 68px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.benefits_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.benefits_blok_wrapper1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.benefits_item {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+          box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+  border-radius: 12px;
+  padding: 40px 52px 51px 52px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 13px;
+}
+
+.benefits_item_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #151515;
+}
+
+.benefits_item_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: rgba(21, 21, 21, 0.6);
+}
+
+.airplane_models_container {
+  margin-top: 40px;
+  background-image: url(../img/Framedots_img.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.airplane_models_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+  margin-top: 69px;
+  margin-bottom: 66px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px 10px 14px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+          box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+  border-radius: 12px;
+}
+
+.airplane_models_item_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #151515;
 }
