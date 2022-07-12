@@ -1,0 +1,372 @@
+@import '_media';
+
+
+body{
+    position: relative;
+}
+header{
+    background: url(../img/intro_bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 95vh;
+    padding-top: 2.5%;
+    .header_conatiner{
+        position: relative;
+
+        nav{
+            align-items: center !important;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+        }
+
+
+
+        
+        .nav_item{
+            font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: right;
+        text-transform: capitalize;
+        color: #181818;
+        text-decoration: none;
+            &:visited{
+                color: #181818;
+            }
+        }
+
+        .sign_in{
+            background: #656293;
+            border-radius: 5px;
+            padding: 5px 23px;
+            color: #fff !important;
+            transition: .5s;
+            &:hover{
+                background: #57547e;
+            }
+        }
+
+
+        .reserved_wrapper{
+            max-width: 587px;
+            margin-top: 185px;
+            margin-bottom: 153px;
+            text-align: left;
+
+            .reserved_title{
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 66px;
+                line-height: 77px;
+                text-transform: capitalize;
+                color: #151515;
+                span{
+                    color: #656293;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+            }
+            .reserved_link{
+                display: flex;
+                align-items: center;
+                margin-top: 48px;
+                gap: 11px;
+                a{
+                    font-family: 'Poppins',sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                   color: #151515;
+                   text-decoration: none;
+                   &:visited{
+                    color: #151515;
+                   }
+                }
+
+            }
+        }
+
+
+
+    }
+
+
+
+}
+
+
+.race_info_wrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+    border-radius: 12px;
+    padding: 34px 29px;
+    width: 100%;
+    .dropdown_list{
+        display: flex;
+        gap: 19px;
+        .dropdown_item{
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            .dropdown_item_title{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                text-transform: capitalize;
+                color: #151515;
+            }
+        }
+    }
+
+    .dropdown_punkts{
+        margin-top: 24px;
+        margin-bottom: 16px;
+        display: flex;
+        gap: 30px;
+        .from_and_to{
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+        .punkt_item{
+            border: 1px solid #AAAAAA;
+            border-radius: 10px;
+            padding: 16px 34px 16px 20px;
+            .punkt_item_title{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #151515;
+                opacity: 0.6;
+            }
+            .punkt_item_subtitle{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+                text-transform: capitalize;
+                color: #151515;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+
+    .dropdown_bottom_link{
+        font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            text-decoration-line: underline;
+            text-transform: capitalize;
+            color: #151515;
+    }
+
+}
+.from_to_width{
+    width: 308px;
+}
+.date{
+    padding: 16px 20px;
+    display: flex;
+    gap: 35px;
+    .date_item{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        .date_btns_wrapper{
+            display: flex;
+            gap: 44px;
+            .date_btn{
+                text-transform: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.book_flights{
+    display: flex;
+    gap: 50px;
+    background: #656293;
+    border-radius: 10px;
+    padding: 27px 30px 26px 30px;
+    max-width: 236px;
+    margin: -40px auto;
+    transition: .5s;
+    cursor: pointer;
+    &:hover{
+        background: #57547e;
+    }
+    .book_flights_item{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-decoration: none;
+
+        &:visited{
+            color: #FFFFFF;
+        }
+    }
+}
+
+
+
+@media(min-width:1200px){
+    .burger{
+        display: none !important;
+    }
+    .d-flex{
+        display: none !important;
+    }
+}
+@media(max-width:1199.98px){
+    .login_wrapper,.nav_links_wrapper{
+        display: none ;
+    }
+    .menu_mobile{
+        display: none;
+    }
+
+    .burger{
+        z-index: 999 !important;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        span{
+            background: #fff;
+            width: 35px;
+            height: 5px;
+        }
+    }
+
+}
+
+
+
+
+
+.hidden{
+    display: none !important;
+}
+.transform_rotate{
+    span{
+        background-color: #fff !important;
+    }
+    .span_burger1{
+        transform: rotate(45deg);
+        transition: .5s;
+    }
+
+    .span_burger3{
+        transform: rotate(-45deg);
+        transition: .5s;
+        
+    margin-top: -9px;
+
+    }
+}
+
+.burger{
+    z-index: 999 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    span{
+        background: #656293;
+        width: 35px;
+        height: 5px;
+    }
+}
+.d-flex{
+    width: 100%;
+    height: 100%;
+    background: #57547e;
+    position: absolute;
+    z-index: 20;
+    transition: .5s;
+    justify-content: center;
+.menu_wrapper{
+display: flex;
+flex-direction:column;
+
+}
+    .login_wrapper,.nav_links_wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_links_wrapper{
+    
+        .nav_item{
+            font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 65px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+        text-decoration: none;
+            &:visited{
+                color: #fff;
+            }
+        }
+    }
+
+    .login_wrapper{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+            .nav_item{
+                font-family: 'Poppins',sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            width: 50%;
+            margin: 15% auto 0;
+            font-size: 35px;
+            line-height: 65px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #fff;
+            text-decoration: none;
+                &:visited{
+                    color: #fff;
+                }
+
+                background: #fff;
+                border-radius: 5px;
+                padding: 5px 23px;
+                color: #000 !important;
+                transition: .5s;
+                &:hover{
+                    background: rgb(192, 192, 192);
+                }
+            }
+
+
+    }
+
+
+}
