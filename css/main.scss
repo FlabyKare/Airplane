@@ -4,6 +4,23 @@
 body{
     position: relative;
     z-index: -10;
+    overflow-x: hidden !important;
+
+    &::-webkit-scrollbar {
+        z-index: 999999999999999999999999999999999999 !important;
+      }
+      &::-webkit-scrollbar-track {
+        z-index: 999999999999999999999999999999999999 !important;
+
+      }
+      &::-webkit-scrollbar-thumb {
+        z-index: 999999999999999999999999999999999999 !important;
+        background: #000;
+        border-radius:20px;
+      }
+}
+.menu_open{
+
 }
 header{
     background: url(../img/intro_bg.jpg) no-repeat;
@@ -244,6 +261,7 @@ header{
 .overflow_hidden{
     overflow: hidden;
 }
+
 .hover_pointer{
     *{
         cursor: pointer;
@@ -255,6 +273,9 @@ header{
     .burger{
         display: none !important;
     }
+    .overflow_hidden{
+        overflow: scroll;
+    }
     .d-flex{
         display: none !important;
     }
@@ -263,6 +284,9 @@ header{
     .airplane_review_item_bg{
         display: none;
     }
+}
+.cursor_pointer{
+    
 }
 @media(max-width:1199.98px){
     
@@ -278,17 +302,36 @@ header{
             top: 1%;
         }
     }
+.menu_mobile_open{
+    position: absolute;
+    cursor: pointer;
+    top:0.6%;
+    right: 6%;
+    height: 35px;
+    .span_burger1{
+        transform: rotate(-45deg);
+        cursor: pointer;
 
-    .burger{
+    }
+    .span_burger3{
+        transform: rotate(45deg);
+        position: absolute;
+        cursor: pointer;
+    }
+}
+    .burger,.menu_mobile_open{
         z-index: 999 !important;
         display: flex;
         flex-direction: column;
         gap: 5px;
+        cursor: pointer;
         span{
             background: #fff;
             width: 35px;
             height: 5px;
+            cursor: pointer;
         }
+
     }
 
     .reserved_wrapper {
@@ -313,7 +356,6 @@ header{
     .span_burger3{
         transform: rotate(-45deg);
         transition: .5s;
-        
     margin-top: -9px;
 
     }
