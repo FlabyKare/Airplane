@@ -74,6 +74,14 @@
     }
 }
 
+.price_container{
+    padding: 0 5%;
+    .price_block{
+        width: auto;
+    }
+
+}
+
 
 }
 
@@ -136,6 +144,22 @@
             margin-top: 0;
         }
     }
+    .price_container{
+        padding: 0 5%;
+        .price_block{
+            width: 45%;
+
+        }
+        .price_block3{
+            margin: 5% auto 0;
+        }
+    }
+
+
+        .footer_info_container{
+            padding: 50px 30px 15px ;
+        }
+
 }
 
 @media(min-width:768px) and (max-width:991.98px){
@@ -198,6 +222,22 @@
             margin-top: 0;
         }
     }
+    .price_container{
+        padding: 0 5%;
+        .price_block{
+            width: 45%;
+
+        }
+        .price_block3{
+            margin: 5% auto 0;
+        }
+    }
+    .footer_info_container{
+        padding: 50px 45px 15px ;
+    }
+    .big_img_airplane{
+        width: 85% !important;
+    }
 }
 
 @media(min-width:576px) and (max-width:767.98px){
@@ -209,24 +249,19 @@
         max-width: 90%;
         margin: auto;
     }
-
     .menu_wrapper{
         padding-top: 15%;
     }
-
     .from_and_to{
         flex-direction: column;
     width: 100%;
     }
-
     .from_to_width{
         width: 419px !important;
     }
-
     .book_flights{
         margin: -20px auto !important;
     }
-
     .h2_with_circle_bacrkgound{
         font-size: 22px !important;
     }
@@ -270,7 +305,6 @@
                 margin: auto;
             }
         }
-
         .airplane_models_container{
             padding: 0px 20%;
             flex-wrap: wrap;
@@ -279,6 +313,38 @@
             }
             .airplane_models_item4,.airplane_models_item3,.airplane_models_item2,.airplane_models_item1{
                 margin-top: 0;
+            }
+        }
+        .price_container{
+            padding: 0 5%;
+            .price_block{
+                width: 75%;
+                margin: 0 auto;
+    
+            }
+            .price_block2{
+                margin: 5% auto;
+            }
+            .price_block3{
+                margin: 0 auto;
+            }
+        }
+        .footer_info_container{
+            padding: 50px 45px 15px ;
+        }
+        .big_img_airplane{
+            width: 85% !important;
+        }
+        .link_footer{
+            font-size: 12px !important;
+        }
+        .footer_jc_beetween{
+            flex-wrap: wrap;
+            gap: 20px;
+            .footer_jc_beetween_block{
+                width: auto;
+                justify-content: center;
+
             }
         }
 }
@@ -391,6 +457,52 @@
                     margin-top: 0;
                 }
             }
+
+            .menu_mobile{
+                display: none;
+                position: relative;
+                .burger{
+                    position: absolute;
+                    right: 6% !important;
+                    top: 0.6% !important;
+                }
+            }
+            .price_wrapper{
+                margin-top: 15%;
+            }
+            .price_container{
+                padding: 0 5%;
+                .price_block{
+                    width: 100%;
+                    margin: 0 auto;
+        
+                }
+                .price_block2{
+                    margin: 10% auto;
+                }
+                .price_block3{
+                    margin: 0 auto;
+                }
+            }
+            .footer_info_container{
+                padding: 50px 25px 15px ;
+            }
+            .link_footer{
+                font-size: 12px !important;
+            }
+            .footer_jc_beetween{
+                flex-wrap: wrap;
+                gap: 20px;
+                .footer_jc_beetween_block{
+                    width: 100%;
+                    justify-content: center;
+
+                }
+            }
+            .big_img_airplane{
+                width: 85% !important;
+            }
+
     }
 
 

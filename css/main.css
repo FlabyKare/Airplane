@@ -72,6 +72,12 @@
   .airplane_review_block2 .airplane_review_info {
     padding-left: 38px;
   }
+  .price_container {
+    padding: 0 5%;
+  }
+  .price_container .price_block {
+    width: auto;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .dropdown_punkts {
@@ -129,6 +135,18 @@
   }
   .airplane_models_container .airplane_models_item4 {
     margin-top: 0;
+  }
+  .price_container {
+    padding: 0 5%;
+  }
+  .price_container .price_block {
+    width: 45%;
+  }
+  .price_container .price_block3 {
+    margin: 5% auto 0;
+  }
+  .footer_info_container {
+    padding: 50px 30px 15px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -190,6 +208,21 @@
   }
   .airplane_models_container .airplane_models_item4, .airplane_models_container .airplane_models_item3 {
     margin-top: 0;
+  }
+  .price_container {
+    padding: 0 5%;
+  }
+  .price_container .price_block {
+    width: 45%;
+  }
+  .price_container .price_block3 {
+    margin: 5% auto 0;
+  }
+  .footer_info_container {
+    padding: 50px 45px 15px;
+  }
+  .big_img_airplane {
+    width: 85% !important;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -275,6 +308,39 @@
   }
   .airplane_models_container .airplane_models_item4, .airplane_models_container .airplane_models_item3, .airplane_models_container .airplane_models_item2, .airplane_models_container .airplane_models_item1 {
     margin-top: 0;
+  }
+  .price_container {
+    padding: 0 5%;
+  }
+  .price_container .price_block {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .price_container .price_block2 {
+    margin: 5% auto;
+  }
+  .price_container .price_block3 {
+    margin: 0 auto;
+  }
+  .footer_info_container {
+    padding: 50px 45px 15px;
+  }
+  .big_img_airplane {
+    width: 85% !important;
+  }
+  .link_footer {
+    font-size: 12px !important;
+  }
+  .footer_jc_beetween {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer_jc_beetween .footer_jc_beetween_block {
+    width: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -398,6 +464,51 @@
   .airplane_models_container .airplane_models_item4, .airplane_models_container .airplane_models_item3, .airplane_models_container .airplane_models_item2, .airplane_models_container .airplane_models_item1 {
     margin-top: 0;
   }
+  .menu_mobile {
+    display: none;
+    position: relative;
+  }
+  .menu_mobile .burger {
+    position: absolute;
+    right: 6% !important;
+    top: 0.6% !important;
+  }
+  .price_wrapper {
+    margin-top: 15%;
+  }
+  .price_container {
+    padding: 0 5%;
+  }
+  .price_container .price_block {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .price_container .price_block2 {
+    margin: 10% auto;
+  }
+  .price_container .price_block3 {
+    margin: 0 auto;
+  }
+  .footer_info_container {
+    padding: 50px 25px 15px;
+  }
+  .link_footer {
+    font-size: 12px !important;
+  }
+  .footer_jc_beetween {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer_jc_beetween .footer_jc_beetween_block {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .big_img_airplane {
+    width: 85% !important;
+  }
 }
 @media (max-width: 389px) and (max-width: 524.98px) {
   .airplane_review_wrapper .h2_with_circle_bacrkgound {
@@ -434,6 +545,7 @@
 */
 body {
   position: relative;
+  z-index: -10;
 }
 
 header {
@@ -725,6 +837,12 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   }
   .menu_mobile {
     display: none;
+    position: relative;
+  }
+  .menu_mobile .burger {
+    position: absolute;
+    right: 6%;
+    top: 1%;
   }
   .burger {
     z-index: 999 !important;
@@ -750,8 +868,12 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   display: none !important;
 }
 
+.transform_rotate {
+  z-index: 999 !important;
+}
 .transform_rotate span {
   background-color: #fff !important;
+  z-index: 999 !important;
 }
 .transform_rotate .span_burger1 {
   -webkit-transform: rotate(45deg);
@@ -1098,4 +1220,218 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   line-height: 24px;
   text-align: center;
   color: #151515;
+}
+
+.price_wrapper {
+  max-width: 1232px;
+  margin: auto;
+}
+.price_wrapper h2 {
+  margin-bottom: 105px;
+}
+
+.price_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price_block {
+  background: #F5F5F5;
+  border-radius: 20px;
+  padding: 24px;
+  width: 384px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.price_block:hover {
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+  background: #656293;
+}
+.price_block:hover .price_block_item_title, .price_block:hover .price_block_item_price {
+  color: #fff;
+}
+.price_block:hover .price_block_item_list {
+  border-bottom: 1px dashed #A9A9AA;
+  padding-bottom: 18px;
+}
+.price_block:hover .price_block_item_list ul li {
+  color: #fff;
+}
+.price_block:hover .price_block_item_list ul li::before {
+  background-image: url(../img/list_style_white.svg);
+}
+.price_block:hover .price_block_item_btn {
+  background: #fff;
+  color: #000;
+}
+
+.price_block_item_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #151515;
+}
+
+.price_block_item_subtitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: #A9A9AA;
+}
+
+.price_block_item_list {
+  border-bottom: 1px dashed #A9A9AA;
+  padding-bottom: 18px;
+}
+.price_block_item_list ul {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+.price_block_item_list ul li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #151515;
+  list-style: none;
+}
+.price_block_item_list ul li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../img/list_style_black.svg);
+}
+
+.price_block_item_price {
+  margin-top: 65px;
+  margin-bottom: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #161616;
+}
+.price_block_item_price span {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.price_block_item_btn {
+  background: #656293;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer {
+  margin-top: 18px;
+}
+footer .footer_container {
+  max-width: 1110px;
+  margin: auto;
+}
+footer .footer_container .big_img_airplane {
+  width: 759px;
+  margin: auto;
+}
+footer .footer_container .big_img_airplane img {
+  width: 100%;
+}
+footer .footer_info_wrapper {
+  background: #656293;
+  width: 100%;
+}
+footer .footer_info_wrapper .footer_info_container {
+  max-width: 1110px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+footer .footer_info_wrapper .footer_info_container .footer_jc_beetween {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footer_info_wrapper .footer_info_container .footer_jc_beetween_block p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+footer .footer_info_wrapper .footer_info_container .footer_info_logo {
+  margin: auto;
+  display: table;
+}
+footer .footer_info_wrapper hr {
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
+footer .footer_jc_beetween_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+footer .footer_jc_beetween_block .link_footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+footer .footer_jc_beetween_block .link_footer:visited, footer .footer_jc_beetween_block .link_footer:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
