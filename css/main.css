@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (min-width: 1400px) {
   .header_conatiner {
     max-width: 1165px;
@@ -224,6 +225,9 @@
   .big_img_airplane {
     width: 85% !important;
   }
+  .element-animation {
+    opacity: 1 !important;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .dropdown_punkts {
@@ -341,6 +345,9 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .element-animation {
+    opacity: 1 !important;
   }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
@@ -509,6 +516,9 @@
   .big_img_airplane {
     width: 85% !important;
   }
+  .element-animation {
+    opacity: 1 !important;
+  }
 }
 @media (max-width: 389px) and (max-width: 524.98px) {
   .airplane_review_wrapper .h2_with_circle_bacrkgound {
@@ -543,6 +553,493 @@
     }
 }
 */
+@media (width: 320px) and (height: 568px) {
+  .menu_mobile .nav_item {
+    font-size: 23px !important;
+    line-height: 50px !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 50%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .change_icon {
+    margin-bottom: 5%;
+  }
+  .date, .change_icon {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 12px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+}
+@media (width: 568px) and (height: 320px) {
+  body {
+    padding-right: 5%;
+  }
+  .menu_wrapper {
+    padding-top: 2%;
+  }
+  .menu_mobile .nav_item {
+    font-size: 18px !important;
+    line-height: 50px !important;
+  }
+  .reserved_wrapper {
+    margin-top: 50px !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 50%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .change_icon {
+    margin-bottom: 5%;
+  }
+  .date, .change_icon {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 15px !important;
+    line-height: 30px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+}
+@media (width: 320px) and (height: 480px) {
+  .menu_mobile .nav_item {
+    font-size: 20px !important;
+    line-height: 40px !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 50%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .change_icon {
+    margin-bottom: 5%;
+  }
+  .date, .change_icon {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 12px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+  .reserved_wrapper {
+    margin-top: 80px !important;
+  }
+}
+@media (width: 480px) and (height: 320px) {
+  body {
+    padding-right: 0;
+  }
+  .menu_wrapper {
+    padding-top: 2%;
+  }
+  .menu_mobile .nav_item {
+    font-size: 18px !important;
+    line-height: 50px !important;
+  }
+  .reserved_wrapper {
+    margin-top: 50px !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 50%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .change_icon {
+    margin-bottom: 5%;
+  }
+  .date, .change_icon {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 15px !important;
+    line-height: 30px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+}
+@media (width: 375px) and (height: 812px) {
+  .menu_wrapper {
+    padding-top: 40% !important;
+  }
+  .menu_mobile .nav_item {
+    font-size: 25px !important;
+    line-height: 50px !important;
+  }
+  header {
+    height: 50vh !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 50%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .change_icon {
+    margin-bottom: 5%;
+  }
+  .date, .change_icon {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 12px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+  .reserved_wrapper {
+    margin-top: 80px !important;
+  }
+}
+@media (width: 812px) and (height: 375px) {
+  body {
+    padding-right: 0;
+  }
+  .menu_wrapper {
+    padding-top: 2%;
+  }
+  .d-flex .login_wrapper {
+    width: 160% !important;
+  }
+  .d-flex .login_wrapper .nav_item {
+    width: 35% !important;
+    margin: 10% auto 0 -11% !important;
+  }
+  .menu_mobile .nav_item {
+    font-size: 18px !important;
+    line-height: 40px !important;
+  }
+  .reserved_wrapper {
+    margin-top: 50px !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 20%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .airplane_models_container {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .date {
+    width: 460px !important;
+    padding-right: 0;
+    padding-left: 45px;
+  }
+  .date .date_item {
+    width: 50% !important;
+  }
+  .race_info_wrapper .from_and_to {
+    width: 100% !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .change_icon {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .date {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 15px !important;
+    line-height: 30px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+}
+@media (width: 1024px) and (height: 1366px) {
+  .menu_wrapper {
+    padding-top: 30% !important;
+  }
+  .menu_mobile .nav_item {
+    font-size: 65px !important;
+    line-height: 90px !important;
+  }
+  .menu_mobile .login_wrapper .nav_item {
+    font-size: 43px !important;
+    width: 45% !important;
+  }
+  header {
+    height: 50vh !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 14%;
+    margin-bottom: 11%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .dropdown_list .dropdown_item {
+    width: 20%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .date {
+    width: 460px !important;
+    padding-right: 0;
+    padding-left: 45px;
+  }
+  .date .date_item {
+    width: 50% !important;
+  }
+  .race_info_wrapper .from_and_to {
+    width: 100% !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .change_icon {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .date {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin-bottom: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 19px !important;
+    line-height: 40px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+  .reserved_wrapper {
+    margin-top: 80px !important;
+  }
+}
+@media (width: 1366px) and (height: 1024px) {
+  body {
+    padding-right: 0;
+  }
+  .menu_wrapper {
+    padding-top: 2%;
+  }
+  .d-flex .login_wrapper {
+    width: 160% !important;
+  }
+  .d-flex .login_wrapper .nav_item {
+    width: 35% !important;
+    margin: 10% auto 0 -11% !important;
+  }
+  .menu_mobile .nav_item {
+    font-size: 18px !important;
+    line-height: 40px !important;
+  }
+  .reserved_wrapper {
+    margin-top: 50px !important;
+  }
+  header {
+    height: 0 !important;
+    min-height: 590px !important;
+  }
+  header .login_wrapper {
+    width: 175px;
+  }
+  header .login_wrapper .sign_in {
+    margin-left: 6%;
+  }
+  header .nav_links_wrapper {
+    width: 580px;
+  }
+  header .nav_links_wrapper .nav_item {
+    font-size: 15px !important;
+    margin-left: 2% !important;
+  }
+  header .menu_open {
+    height: 40px;
+    margin-bottom: -6%;
+  }
+  header .menu_open .span_burger2 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .race_info_container {
+    margin: 35px auto 0 !important;
+  }
+  .dropdown_list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 5%;
+  }
+  .dropdown_list .dropdown_item {
+    width: 10%;
+  }
+  .dropdown_list .dropdown_item .dropdown_item_title {
+    margin-right: 6%;
+  }
+  .airplane_models_container {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .date {
+    width: 460px !important;
+    padding-right: 0;
+    padding-left: 45px;
+  }
+  .date .date_item {
+    width: 50% !important;
+  }
+  .race_info_wrapper .from_and_to {
+    width: 100% !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .change_icon {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .date {
+    margin-top: 5%;
+  }
+  .benefits_blok, .plane_img {
+    margin: 5%;
+  }
+  .price_block_item_list ul li {
+    font-size: 17px !important;
+    line-height: 30px !important;
+  }
+  .price_block_item_list ul li::before {
+    margin-right: 5%;
+  }
+}
 body {
   position: relative;
   z-index: -10;
@@ -839,6 +1336,7 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   }
   .d-flex {
     display: none !important;
+    width: 0 !important;
   }
 }
 @media (max-width: 1399.98px) {
@@ -850,9 +1348,19 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   .login_wrapper, .nav_links_wrapper {
     display: none;
   }
+  .d-flex {
+    top: 0 !important;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
   .menu_mobile {
     display: none;
-    position: relative;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    -webkit-transition: 1s;
+    transition: 1s;
   }
   .menu_mobile .burger {
     position: absolute;
@@ -941,14 +1449,27 @@ header .header_conatiner .reserved_wrapper .reserved_link a:visited {
   height: 5px;
 }
 
+.element-animation {
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+}
+
+.element-show {
+  opacity: 1;
+  -webkit-transition: opacity 1s !important;
+  transition: opacity 1s !important;
+}
+
 .d-flex {
   width: 100%;
   height: 100%;
   background: #57547e;
   position: absolute;
-  z-index: 20;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  z-index: 20;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
